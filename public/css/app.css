@@ -14005,3 +14005,17 @@ a.text-dark:focus {
   clip: auto;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+main .image-box {
+  width: 80%;
+}
+

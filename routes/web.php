@@ -15,9 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'PageController@index')->name('home');
 
-Route::get('/viaggia', function () {
-    return view('travel');
-})->name('travel');
+Route::get('/viaggia', 'TravelController@index')->name('travel');
 
 Route::get('/contatti', function () {
     return view('contacts');

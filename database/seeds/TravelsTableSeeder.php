@@ -13,7 +13,7 @@ class TravelsTableSeeder extends Seeder
      */
     public function run(Faker $faker)
     {
-        for($i = 0; $i > 100; $i++){
+        for($i = 0; $i < 100; $i++){
             $new_travel = new Travel();
             $new_travel->destination = $faker->city();
             $new_travel->country = $faker->country();

@@ -17,7 +17,7 @@ class CreateTravelsTable extends Migration
             $table->id();
 
             $table->string('destination', 70);
-            $table->string('country', 30);
+            $table->string('country', 200);
             $table->string('facility_name', 60);
             $table->string('address', 60);
             $table->text('description')->nullable();
